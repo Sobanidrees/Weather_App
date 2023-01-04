@@ -1,0 +1,67 @@
+.Cointainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 3rem;
+    width: 40rem;
+    padding: 1rem;
+   filter: blur(.5px);
+    background-image:url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?size=626&ext=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6rem;
+}
+
+.Condition,
+.Location,
+.Humidity,
+.Temperature,
+.WindSpeed,
+.LastUpdate
+{
+font-family: 'Times New Roman', Times, serif;
+  color:indigo;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.Condition{
+font-size: larger;
+font-weight: bolder;
+font-size: 2rem;
+}
+
+.Location{
+
+    font-weight: bolder;
+  
+}
+.Humidity{
+    font-weight: bolder;
+  
+}
+.WindSpeed{
+
+    font-weight: bolder;
+   
+}
+.LastUpdate{
+    font-weight: bolder;
+   color: black;
+   font-size: 1.5rem;
+}
+.img{
+width: 10rem;
+}
+.Temperature{
+
+    font-weight: bolder;
+  
+   
+}
+.MC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
