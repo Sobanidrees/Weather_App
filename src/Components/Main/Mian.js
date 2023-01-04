@@ -18,7 +18,7 @@ export default function Mian() {
       }
 
       const fetching = await fetch(
-        `http://api.weatherapi.com/v1/forecast.json?key=9784c73bde0e49c9bbd110143230101&q=${val}&days=7&aqi=yes&alerts=yes`
+        `https://api.weatherapi.com/v1/forecast.json?key=9784c73bde0e49c9bbd110143230101&q=${val}&days=7&aqi=yes&alerts=yes`
       );
       const data = await fetching.json();
       setcity(data);
