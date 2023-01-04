@@ -1,0 +1,31 @@
+.Hcointainer{
+  display: flex;
+  align-items: center;
+  padding: 1rem  2rem;
+  border: 1px solid black;
+  background-color: rgba(127, 255, 212, 0.356);
+  justify-content: space-between;
+}
+.ssbar{
+  display: flex;
+  gap: .5rem;
+
+}
+.inputS{
+  padding: .5rem;
+}
+
+.search{
+  font-size: 1.6rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.logo{
+  font-size: 1.9rem;
+  font-weight: bolder;
+
+}
+.bbtn{
+  padding: .3rem;
+  font-size: large;
+}
